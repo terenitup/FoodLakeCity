@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 
-export default class App extends Component {
+export default class  extends Component {
+  constructor(props) {
+    super(props)
+  }
+
   render() {
     return (
-      <div className='app'>
-        <h1>FoodLakeCity</h1>
+      <div>
         
       </div>
     );
