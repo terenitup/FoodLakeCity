@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import Home from './home';
-import Blog from './blog';
-import Gallery from './gallery'
+import Navigation from './navigation';
+import PageContent from './page-content';
 
 export default class App extends Component {
   render() {
